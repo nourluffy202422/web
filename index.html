@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>المبرمج الأسطوري - الملف الشخصي</title>
+  <meta name="description" content="صفحة تعريفية لمبرمج أسطوري تعرض السيرة، المهارات، المشاريع، والتواصل." />
+  <link rel="icon" href="assets/images/logo-placeholder.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="الصفحة الرئيسية">
+        <img src="assets/images/logo-placeholder.svg" alt="شعار" />
+      </a>
+      <nav id="main-nav" class="nav" aria-label="التنقل">
+        <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="#about" data-i18n="nav.about">حول</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">المهارات</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">المشاريع</a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials">الشهادات</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">تواصل</a></li>
+        </ul>
+      </nav>
+      <button id="lang-switch" class="lang-switch" aria-label="تبديل اللغة">EN</button>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    <section class="hero container" aria-label="المقدمة">
+      <div class="hero-content">
+        <h1 data-i18n="hero.title">المبرمج الأسطوري</h1>
+        <p class="lead" data-i18n="hero.subtitle">مصمم حلول برمجية مبتكرة وسيط موثوق في عالم التكنولوجيا.</p>
+        <div class="cta-group">
+          <a href="#projects" class="btn" data-i18n="hero.cta">اعرض مشاريعي</a>
+          <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta2">تواصل معي</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/images/hero-placeholder.svg" alt="صورة توضيحية" />
+      </div>
+    </section>
+
+    <section id="about" class="container section" aria-label="حول">
+      <h2 data-i18n="about.title">حول المبرمج الأسطوري</h2>
+      <p data-i18n="about.text">أطمح لبناء أنظمة برمجية بسيطة وذكية تقود العالم نحو تجربة رقمية أكثر سلاسة وفاعلية. أدير فرق صغيرة وتساهم في تصميم وتطوير حلول مفتوحة ومبتكرة.</p>
+      <div class="cards">
+        <article class="card" aria-label="الخلفية">
+          <div class="card-icon">🧠</div>
+          <h3 data-i18n="about.card1">خبرة تقنية عميقة</h3>
+          <p data-i18n="about.card1text">خبرة واسعة في هندسة البرمجيات، الأرشيف البرمجي، وتطوير الأنظمة القابلة للتوسع.</p>
+        </article>
+        <article class="card" aria-label="الفلسفة">
+          <div class="card-icon">⚡</div>
+          <h3 data-i18n="about.card2">فلسفة عمل شفافة</h3>
+          <p data-i18n="about.card2text">شفافية في التقدير والتواصل مع الفريق والعملاء لضمان نتائج ملموسة.</p>
+        </article>
+        <article class="card" aria-label="القيم">
+          <div class="card-icon">🎯</div>
+          <h3 data-i18n="about.card3">هدف مركّز على القيمة</h3>
+          <p data-i18n="about.card3text">تركيز دائم على خلق قيمة حقيقية من خلال حلول قابلة للتنفيذ وسهلة التبني.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section" aria-label="المهارات">
+      <h2 data-i18n="skills.title">المهارات الأساسية</h2>
+      <div class="skills-grid">
+        <div class="skill">JavaScript / TypeScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">React & Next.js</div>
+        <div class="skill">Python</div>
+        <div class="skill">DevOps</div>
+        <div class="skill">Cloud (- وورد)</div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section" aria-label="المشاريع">
+      <h2 data-i18n="projects.title">مشاريعي</h2>
+      <p class="section-sub" data-i18n="projects.subtitle">عينة من المشاريع التي سلمت بنجاح مع نتائج قابلة القياس.</p>
+      <div class="projects-grid">
+        <article class="project-card" aria-label="مشروع 1">
+          <img src="assets/images/project1-placeholder.svg" alt="لقطة مشروع 1" />
+          <h3 data-i18n="projects.p1">نظام إدارة المهام الذكي</h3>
+          <p data-i18n="projects.p1desc">إدارة مشروعات، تتبع تقدم، وتكامل مع أدوات الفريق.</p>
+        </article>
+        <article class="project-card" aria-label="مشروع 2">
+          <img src="assets/images/project2-placeholder.svg" alt="لقطة مشروع 2" />
+          <h3 data-i18n="projects.p2">بوابة تعلم إلكترونية</h3>
+          <p data-i18n="projects.p2desc">منصة تعلم سحابية بمميزات تفاعل متقدمة وتقييم تلقائي.</p>
+        </article>
+        <article class="project-card" aria-label="مشروع 3">
+          <img src="assets/images/project3-placeholder.svg" alt="لقطة مشروع 3" />
+          <h3 data-i18n="projects.p3">خدمات مكونات برمجية موجهة</h3>
+          <p data-i18n="projects.p3desc">مكتبات قابلة لإعادة الاستخدام ودعم تكامل بسيط.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="container section" aria-label="الشهادات">
+      <h2 data-i18n="testimonials.title">شهادات وتوصيات</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial" aria-label="توصية 1">
+          <p data-i18n="testimonials.t1">"مبرمج يحقق النتائج بسرعة وبكفاءة عالية."</p>
+          <footer>— مدير مشروع</footer>
+        </blockquote>
+        <blockquote class="testimonial" aria-label="توصية 2">
+          <p data-i18n="testimonials.t2">"عمل رائع، تواصل ممتاز وجودة عالية في الكود."</p>
+          <footer>— قائد فريق</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="container section" aria-label="تواصل">
+      <h2 data-i18n="contact.title">تواصل معي</h2>
+      <p data-i18n="contact.subtitle">يمكنك إرسال رسالة وسأعود إليك في أقرب وقت ممكن.</p>
+      <form class="contact-form" action="#" method="post" aria-label="نماذج اتصال">
+        <div class="form-row">
+          <label for="name" data-i18n="contact.name">الاسم</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email" data-i18n="contact.email">البريد الإلكتروني</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message" data-i18n="contact.message">الرسالة</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="btn" type="submit" data-i18n="contact.send">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; 2026 المبرمج الأسطوري. جميع الحقوق محفوظة.</p>
+      <p class="small" data-i18n="footer.note">هذا موقع تجريبي بنسخة ذات اتجاهين مع إمكان التبديل بين اللغات.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
